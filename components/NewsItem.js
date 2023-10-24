@@ -13,7 +13,7 @@ const NewsItem = ({ title, content, subtitle, navigation, pubDate, featured_medi
     const subtitleWitinTags = removeHtmlTags(subtitle);
     // getting the cover photo url from another API call
     const getImageUrl = async () => {
-        const url = `https://newshourbd.com/wp-json/wp/v2/media/${featured_media_id}?_fields=source_url`;
+        const url = `https://yoursite.com/wp-json/wp/v2/media/${featured_media_id}?_fields=source_url`;
         try {
             await fetch(url)
                 .then((res) => res.json())

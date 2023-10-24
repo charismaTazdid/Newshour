@@ -10,10 +10,9 @@ const Home = (props) => {
     const [pageNumber, setPageNumber] = useState(1)
     const [isFetching, setIsFetching] = useState(false);
 
-    // https://newshourbd.com/
     const loadNews = async () => {
         if (isFetching) return;
-        const url = `https://newshourbd.com/wp-json/wp/v2/posts?per_page=25&_fields=id,content,title,date,excerpt,featured_media,guid&page=${pageNumber}`;
+        const url = `https://yoursite.com/wp-json/wp/v2/posts?per_page=25&_fields=id,content,title,date,excerpt,featured_media,guid&page=${pageNumber}`;
 
         try {
             setIsLoading(true);

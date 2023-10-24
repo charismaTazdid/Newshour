@@ -1,14 +1,7 @@
-# Rudro Songbad
-# standerdNewsApp
+# Newshour
 
-Perfectly fit for an website which developed by Wordpress CMS.
-If the wordpress site has Yoast Plugin installd, the  app may not work perfectly.
-then you should correction some params when API request making.
+From a wordpress News site to a Android Application.
 
-### Clone this, make following correction.
-1. Home.js             => line: 15, 43
-2. Newsitem.js         => line: 16
-3. DetailsNews.js      => line: 14
-4. app.json            => line: 3,4, 21
-5. package-lock.json   => line: 2, 8
-6. package.json        => line: 2
+## SCREEN Overview
+
+<img alt="home" src="https://github.com/raihan-tajdid007/hackerRank-prob-solving/assets/69608939/ab7772f7-f05d-4fe1-be1b-5e757168a79f" height="90%"  />
